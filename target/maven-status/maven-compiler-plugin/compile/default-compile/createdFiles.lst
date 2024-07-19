@@ -1,0 +1,4 @@
+com\selenium_framework\UtilitiesPage.class
+com\selenium_framework\DriverFactory.class
+com\selenium_framework\RegisterUserPage.class
+com\selenium_framework\BasePage.class
