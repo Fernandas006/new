@@ -13,16 +13,16 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
     private int defaultWaitTime;
-    protected String url;
-    UtilitiesPage utility=new UtilitiesPage();
+    protected String url;    
+    public UtilitiesPage utility;
 
     public BasePage(WebDriver driver){
-        this.driver=driver;
+        this.driver=DriverFactory.getDriver();
         this.defaultWaitTime=20;
         this.wait= new WebDriverWait(driver, Duration.ofSeconds(defaultWaitTime));
         this.url=new String();
     }
-
+    
     protected WebElement findElement(By by){
         WebElement element = null;
         int attempts = 0;
@@ -43,7 +43,7 @@ public class BasePage {
                 e.printStackTrace();
                 attempts++;
                 System.out.println("Element not found after " + maxAttempts + " attempts. Refreshing page...");
-                driver.get(UtilitiesPage.getPropertyFileValue(url));
+                driver.get(utility.getPropertyFileValue(url));
             }
         }
         return element;

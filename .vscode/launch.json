@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main",
+            "request": "launch",
+            "mainClass": "com.selenium_framework.RegUserTest",
+            "projectName": "seleniumframework",
+            "vmArgs": "-Dlog4j.configurationFile=src/main/resources/log4j2.xml",
+            "console": "integratedTerminal"
+        }
+    ]
+}

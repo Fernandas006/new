@@ -1,2 +1,2 @@
-com\selenium_framework\TestListener.class
+com\selenium_framework\listeners\TestListener.class
 com\selenium_framework\RegUserTest.class
