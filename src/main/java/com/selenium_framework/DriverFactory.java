@@ -1,7 +1,8 @@
 package com.selenium_framework;
 import org.apache.logging.log4j.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
     private static WebDriver driver;
@@ -13,8 +14,8 @@ public class DriverFactory {
             try {
                 String chromeDriverPath = utility.getPropertyFileValue("chromeDriverPath");
                 logger.info("ChromeDriver Path: " + chromeDriverPath);
-                System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-                driver = new EdgeDriver();
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
                 logger.info("ChromeDriver initialized successfully.");
             } catch (Exception e) {
                 logger.error("Error initializing ChromeDriver: " + e.getMessage(),e);
