@@ -17,7 +17,7 @@ public class BasePage {
     public UtilitiesPage utility;
 
     public BasePage(WebDriver driver){
-        this.driver=DriverFactory.getDriver();
+        this.driver=driver;
         this.defaultWaitTime=20;
         this.wait= new WebDriverWait(driver, Duration.ofSeconds(defaultWaitTime));
         this.url=new String();

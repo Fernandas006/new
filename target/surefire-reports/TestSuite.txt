@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.192 s - in TestSuite
-testRegUserPage(com.selenium_framework.RegUserTest)  Time elapsed: 4.761 s
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.432 s - in TestSuite
+testRegUserPage(com.selenium_framework.RegUserTest)  Time elapsed: 4.182 s

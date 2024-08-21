@@ -11,14 +11,16 @@ import org.openqa.selenium.WebDriver;
 
 @Listeners(TestListener.class)
 public class RegUserTest extends BasePage {
-    private WebDriver driver;
+    //private WebDriver driver;
     private static final Logger logger= LogManager.getLogger(RegUserTest.class);
-    RegisterUserPage regPage=new RegisterUserPage(driver);
-    UtilitiesPage utility=new UtilitiesPage(driver);
-    BasePage basePage=new BasePage(driver);
+    RegisterUserPage regPage;
+    UtilitiesPage utility;
+    //BasePage basePage=new BasePage(driver);
 
-    public RegUserTest(WebDriver driver){
-        super(driver);
+    public RegUserTest(){
+        super(DriverFactory.getDriver());
+        this.regPage = new RegisterUserPage();
+        this.utility = new UtilitiesPage(driver);
     }
     
     @BeforeClass
@@ -27,7 +29,7 @@ public class RegUserTest extends BasePage {
             System.out.println("Setting up the driver...");
             //driver = DriverFactory.getDriver();
             if (driver != null) {
-                basePage = new BasePage(driver);
+                //basePage = new BasePage(this.driver);
                 logger.info("Driver setup completed.");
             } else {
                 logger.error("Driver is null after setup.");
@@ -42,10 +44,10 @@ public class RegUserTest extends BasePage {
         try {
             String url = utility.getPropertyFileValue("registerUserUrl");
             logger.info("Navigating to URL: " + url);
-            driver.get(url);
-            driver.manage().window().maximize();
+            this.driver.get(url);
+            this.driver.manage().window().maximize();
             try {
-                Assert.assertEquals(driver.findElement(By.xpath("//h2[contains(text(),'Customer Login')]")).getText(), "Customer Login");
+                Assert.assertEquals(this.driver.findElement(By.xpath("//h2[contains(text(),'Customer Login')]")).getText(), "Customer Login");
                 logger.info("Title matched successfully");
                 utility.takeScreenshot("RestrationPageTest");
                 logger.info("Screenshot taken successfully");
@@ -69,7 +71,7 @@ public class RegUserTest extends BasePage {
         System.out.println(tempValue);
         regPage.fillRegUserPage(tempBy, tempValue);
         logger.info("New User fields have been filled");
-        basePage.clickElement(regPage.registerButton);
+        clickElement(regPage.registerButton);
     }
     
     @AfterClass

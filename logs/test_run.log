@@ -1267,3 +1267,25 @@ java.lang.NullPointerException: Cannot invoke "com.selenium_framework.UtilitiesP
 2024-08-21 20:37:31 INFO  TestListener:16 - Test passed: testRegUserPage
 2024-08-21 20:37:31 INFO  RegUserTest:73 - Closing the browser
 2024-08-21 20:37:31 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-21 21:45:26 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-21 21:45:31 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-21 21:45:31 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-21 21:45:32 INFO  RegUserTest:33 - Driver setup completed.
+2024-08-21 21:45:32 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-21 21:45:32 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-21 21:45:35 INFO  RegUserTest:51 - Title matched successfully
+2024-08-21 21:45:35 INFO  RegUserTest:53 - Screenshot taken successfully
+2024-08-21 21:45:35 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-21 21:45:35 INFO  RegUserTest:79 - Closing the browser
+2024-08-21 21:45:36 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-21 21:46:09 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-21 21:46:13 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-21 21:46:13 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-21 21:46:13 INFO  RegUserTest:33 - Driver setup completed.
+2024-08-21 21:46:13 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-21 21:46:13 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-21 21:46:17 INFO  RegUserTest:51 - Title matched successfully
+2024-08-21 21:46:17 INFO  RegUserTest:53 - Screenshot taken successfully
+2024-08-21 21:46:17 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-21 21:46:17 INFO  RegUserTest:79 - Closing the browser
+2024-08-21 21:46:18 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------

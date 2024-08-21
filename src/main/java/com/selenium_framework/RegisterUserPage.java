@@ -6,8 +6,10 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 
-public class RegisterUserPage extends BasePage{
-    UtilitiesPage utility=new UtilitiesPage(driver);
+public class RegisterUserPage {
+    // UtilitiesPage utility=new UtilitiesPage(driver);
+    WebDriver driver=DriverFactory.getDriver();
+    BasePage basePage= new BasePage(driver);
     private By fname=By.id("customer.firstName");
     private By lname=By.id("customer.lastName");
     private By address=By.id("customer.address.street");
@@ -21,9 +23,9 @@ public class RegisterUserPage extends BasePage{
     private By confirm=By.id("repeatedPassword");
     public By registerButton=By.xpath("//input[@class='button' and @value='Register']");
     
-    public RegisterUserPage(WebDriver driver){
-        super(driver);
-    }
+    // public RegisterUserPage(WebDriver driver){
+    //     super(driver);
+    // }
     
     public List<By> elementList(){
         List<By> list=new ArrayList<>();
@@ -45,11 +47,11 @@ public class RegisterUserPage extends BasePage{
     List<String> tempValue=new ArrayList<>();
     public void fillRegUserPage(List<By> by, List<String> value){
         for(int i=0; i<by.size(); i++){
-            enterText(tempBy.get(i),tempValue.get(i));
+            basePage.enterText(tempBy.get(i),tempValue.get(i));
         }
     }
 
     public void clickRegisterButton(By by){
-        clickElement(by);
+        basePage.clickElement(by);
     }
 }

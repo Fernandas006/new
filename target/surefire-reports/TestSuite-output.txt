@@ -1,60 +1,17 @@
-2024-08-21 20:37:21 ERROR DriverFactory:21 - Error initializing ChromeDriver: Cannot invoke "com.selenium_framework.UtilitiesPage.getPropertyFileValue(String)" because "com.selenium_framework.DriverFactory.utility" is null
-java.lang.NullPointerException: Cannot invoke "com.selenium_framework.UtilitiesPage.getPropertyFileValue(String)" because "com.selenium_framework.DriverFactory.utility" is null
-	at com.selenium_framework.DriverFactory.getDriver(DriverFactory.java:15) ~[classes/:?]
-	at com.selenium_framework.BasePage.<init>(BasePage.java:20) ~[classes/:?]
-	at com.selenium_framework.UtilitiesPage.<init>(UtilitiesPage.java:24) ~[classes/:?]
-	at com.selenium_framework.DriverFactory.<clinit>(DriverFactory.java:10) ~[classes/:?]
-	at com.selenium_framework.BasePage.<init>(BasePage.java:20) ~[classes/:?]
-	at com.selenium_framework.RegisterUserPage.<init>(RegisterUserPage.java:25) ~[classes/:?]
-	at com.selenium_framework.RegUserTest.<init>(RegUserTest.java:16) ~[test-classes/:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) [?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) [?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) [?:?]
-	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:25) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:30) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:112) [testng-7.4.0.jar:7.4.0]
-	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:165) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestClass.getInstances(TestClass.java:122) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:102) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestClass.init(TestClass.java:94) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestClass.<init>(TestClass.java:59) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestRunner.initMethods(TestRunner.java:463) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestRunner.init(TestRunner.java:339) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestRunner.init(TestRunner.java:292) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestRunner.<init>(TestRunner.java:183) [testng-7.4.0.jar:7.4.0]
-	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:596) [testng-7.4.0.jar:7.4.0]
-	at org.testng.SuiteRunner.init(SuiteRunner.java:173) [testng-7.4.0.jar:7.4.0]
-	at org.testng.SuiteRunner.<init>(SuiteRunner.java:107) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestNG.createSuiteRunner(TestNG.java:1300) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestNG.createSuiteRunners(TestNG.java:1276) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
-	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283) [surefire-testng-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120) [surefire-testng-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.2.jar:2.22.2]
-2024-08-21 20:37:21 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-21 21:46:09 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 21, 2024 8:37:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 21, 2024 9:46:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
-2024-08-21 20:37:26 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
-2024-08-21 20:37:26 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-21 21:46:13 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-21 21:46:13 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
 Setting up the driver...
-2024-08-21 20:37:26 INFO  RegUserTest:27 - Driver setup completed.
-2024-08-21 20:37:26 INFO  TestListener:11 - Test StartedtestRegUserPage
-2024-08-21 20:37:26 INFO  RegUserTest:40 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
-2024-08-21 20:37:31 INFO  RegUserTest:45 - Title matched successfully
-2024-08-21 20:37:31 INFO  RegUserTest:47 - Screenshot taken successfully
-2024-08-21 20:37:31 INFO  TestListener:16 - Test passed: testRegUserPage
-2024-08-21 20:37:31 INFO  RegUserTest:73 - Closing the browser
-2024-08-21 20:37:31 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-21 21:46:13 INFO  RegUserTest:33 - Driver setup completed.
+2024-08-21 21:46:13 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-21 21:46:13 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-21 21:46:17 INFO  RegUserTest:51 - Title matched successfully
+2024-08-21 21:46:17 INFO  RegUserTest:53 - Screenshot taken successfully
+2024-08-21 21:46:17 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-21 21:46:17 INFO  RegUserTest:79 - Closing the browser
+2024-08-21 21:46:18 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
