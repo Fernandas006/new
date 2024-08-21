@@ -10,18 +10,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 @Listeners(TestListener.class)
-public class RegUserTest  {
+public class RegUserTest extends BasePage {
     private WebDriver driver;
     private static final Logger logger= LogManager.getLogger(RegUserTest.class);
     RegisterUserPage regPage=new RegisterUserPage(driver);
     UtilitiesPage utility=new UtilitiesPage(driver);
     BasePage basePage=new BasePage(driver);
 
+    public RegUserTest(WebDriver driver){
+        super(driver);
+    }
+    
     @BeforeClass
     public void setUp() {
         try {
             System.out.println("Setting up the driver...");
-            driver = DriverFactory.getDriver();
+            //driver = DriverFactory.getDriver();
             if (driver != null) {
                 basePage = new BasePage(driver);
                 logger.info("Driver setup completed.");

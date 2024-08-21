@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-21T20:37:26 IST" name="Suite" finished-at="2024-08-21T20:37:31 IST" duration-ms="5415">
+    <groups>
+    </groups>
+    <test started-at="2024-08-21T20:37:26 IST" name="Test" finished-at="2024-08-21T20:37:31 IST" duration-ms="5415">
+      <class name="com.selenium_framework.RegUserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium_framework.RegUserTest@602ae7b6]" started-at="2024-08-21T20:37:26 IST" name="setUp" finished-at="2024-08-21T20:37:26 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegUserPage()[pri:0, instance:com.selenium_framework.RegUserTest@602ae7b6]" started-at="2024-08-21T20:37:26 IST" name="testRegUserPage" finished-at="2024-08-21T20:37:31 IST" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegUserPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium_framework.RegUserTest@602ae7b6]" started-at="2024-08-21T20:37:31 IST" name="tearDown" finished-at="2024-08-21T20:37:31 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium_framework.RegUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
