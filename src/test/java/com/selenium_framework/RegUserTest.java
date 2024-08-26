@@ -19,6 +19,7 @@ public class RegUserTest extends BasePage {
 
     public RegUserTest(){
         super(DriverFactory.getDriver());
+        this.driver = DriverFactory.getDriver();
         this.regPage = new RegisterUserPage();
         this.utility = new UtilitiesPage(driver);
     }
@@ -27,7 +28,7 @@ public class RegUserTest extends BasePage {
     public void setUp() {
         try {
             System.out.println("Setting up the driver...");
-            //driver = DriverFactory.getDriver();
+            //
             if (driver != null) {
                 //basePage = new BasePage(this.driver);
                 logger.info("Driver setup completed.");
@@ -47,7 +48,7 @@ public class RegUserTest extends BasePage {
             this.driver.get(url);
             this.driver.manage().window().maximize();
             try {
-                Assert.assertEquals(this.driver.findElement(By.xpath("//h2[contains(text(),'Customer Login')]")).getText(), "Customer Login");
+                Assert.assertEquals(driver.getTitle(), "ParaBank | Register for Free Online Account Access");
                 logger.info("Title matched successfully");
                 utility.takeScreenshot("RestrationPageTest");
                 logger.info("Screenshot taken successfully");

@@ -1,17 +1,17 @@
-2024-08-21 21:46:09 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:36:55 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 21, 2024 9:46:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 26, 2024 6:36:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
-2024-08-21 21:46:13 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
-2024-08-21 21:46:13 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:36:59 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:36:59 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
 Setting up the driver...
-2024-08-21 21:46:13 INFO  RegUserTest:33 - Driver setup completed.
-2024-08-21 21:46:13 INFO  TestListener:11 - Test StartedtestRegUserPage
-2024-08-21 21:46:13 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
-2024-08-21 21:46:17 INFO  RegUserTest:51 - Title matched successfully
-2024-08-21 21:46:17 INFO  RegUserTest:53 - Screenshot taken successfully
-2024-08-21 21:46:17 INFO  TestListener:16 - Test passed: testRegUserPage
-2024-08-21 21:46:17 INFO  RegUserTest:79 - Closing the browser
-2024-08-21 21:46:18 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:36:59 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:36:59 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:36:59 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:37:03 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:37:04 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:37:04 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:37:04 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:37:05 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------

@@ -1289,3 +1289,321 @@ java.lang.NullPointerException: Cannot invoke "com.selenium_framework.UtilitiesP
 2024-08-21 21:46:17 INFO  TestListener:16 - Test passed: testRegUserPage
 2024-08-21 21:46:17 INFO  RegUserTest:79 - Closing the browser
 2024-08-21 21:46:18 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-21 22:25:01 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-21 22:25:02 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-21 22:25:03 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-21 22:25:03 INFO  RegUserTest:33 - Driver setup completed.
+2024-08-21 22:25:03 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-21 22:25:03 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-21 22:25:09 INFO  RegUserTest:51 - Title matched successfully
+2024-08-21 22:25:09 INFO  RegUserTest:53 - Screenshot taken successfully
+2024-08-21 22:25:09 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-21 22:25:09 INFO  RegUserTest:79 - Closing the browser
+2024-08-21 22:25:09 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-21 22:26:31 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-21 22:26:33 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-21 22:26:33 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-21 22:26:33 INFO  RegUserTest:33 - Driver setup completed.
+2024-08-21 22:26:33 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-21 22:26:33 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-21 22:26:36 INFO  RegUserTest:51 - Title matched successfully
+2024-08-21 22:26:37 INFO  RegUserTest:53 - Screenshot taken successfully
+2024-08-21 22:26:37 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-21 22:26:37 INFO  RegUserTest:79 - Closing the browser
+2024-08-21 22:26:37 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:31:06 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:31:08 ERROR DriverFactory:21 - Error initializing ChromeDriver: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1404) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1420) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1401) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1394) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:420) ~[webdrivermanager-5.4.1.jar:?]
+	at com.selenium_framework.DriverFactory.getDriver(DriverFactory.java:17) ~[classes/:?]
+	at com.selenium_framework.RegUserTest.<init>(RegUserTest.java:21) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) [?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) [?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) [?:?]
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:25) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:30) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:112) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:165) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.getInstances(TestClass.java:122) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:102) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.init(TestClass.java:94) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.<init>(TestClass.java:59) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.initMethods(TestRunner.java:463) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.init(TestRunner.java:339) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.init(TestRunner.java:292) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.<init>(TestRunner.java:183) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:107) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1300) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1558) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:108) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1425) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1253) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1172) ~[webdrivermanager-5.4.1.jar:?]
+	... 38 more
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:998) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1806) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1676) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:162) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1543) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:108) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1425) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1253) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1172) ~[webdrivermanager-5.4.1.jar:?]
+	... 38 more
+2024-08-26 18:31:08 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:31:09 ERROR DriverFactory:21 - Error initializing ChromeDriver: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+io.github.bonigarcia.wdm.config.WebDriverManagerException: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1404) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1420) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1401) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1394) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1178) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:420) ~[webdrivermanager-5.4.1.jar:?]
+	at com.selenium_framework.DriverFactory.getDriver(DriverFactory.java:17) ~[classes/:?]
+	at com.selenium_framework.RegisterUserPage.<init>(RegisterUserPage.java:11) ~[classes/:?]
+	at com.selenium_framework.RegUserTest.<init>(RegUserTest.java:22) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) [?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) [?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) [?:?]
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:25) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:30) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:112) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:165) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.getInstances(TestClass.java:122) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:102) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.init(TestClass.java:94) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestClass.<init>(TestClass.java:59) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.initMethods(TestRunner.java:463) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.init(TestRunner.java:339) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.init(TestRunner.java:292) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.<init>(TestRunner.java:183) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:107) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1300) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+Caused by: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1558) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:108) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1425) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1253) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1172) ~[webdrivermanager-5.4.1.jar:?]
+	... 39 more
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at java.net.InetAddress$CachedLookup.get(InetAddress.java:998) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1806) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1676) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.2.1.jar:5.2.1]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.2.1.jar:5.2.1]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:162) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1543) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:108) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1425) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1253) ~[webdrivermanager-5.4.1.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1172) ~[webdrivermanager-5.4.1.jar:?]
+	... 39 more
+2024-08-26 18:31:09 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:31:09 ERROR RegUserTest:35 - Driver is null after setup.
+2024-08-26 18:31:09 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:31:09 INFO  RegUserTest:46 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:31:09 ERROR RegUserTest:61 - Error during test execution: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at com.selenium_framework.RegUserTest.testRegUserPage(RegUserTest.java:47) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+2024-08-26 18:31:09 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:31:09 INFO  RegUserTest:79 - Closing the browser
+2024-08-26 18:31:09 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:33:43 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:33:48 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:33:48 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:33:48 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:33:48 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:33:48 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:33:52 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:33:52 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:33:52 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:33:52 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:33:53 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:35:11 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:35:14 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:35:14 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:35:14 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:35:14 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:35:15 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:35:18 ERROR RegUserTest:56 - Title did not match.
+java.lang.AssertionError: expected [Customer Login] but found [ParaBank | Register for Free Online Account Access]
+	at org.testng.Assert.fail(Assert.java:99) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1037) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEquals(Assert.java:122) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEquals(Assert.java:629) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEquals(Assert.java:639) ~[testng-7.4.0.jar:7.4.0]
+	at com.selenium_framework.RegUserTest.testRegUserPage(RegUserTest.java:51) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at com.microsoft.java.test.runner.testng.TestNGRunner.run(TestNGRunner.java:45) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.testng.TestNGLauncher.execute(TestNGLauncher.java:32) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+	at com.microsoft.java.test.runner.Launcher.main(Launcher.java:57) [com.microsoft.java.test.runner-jar-with-dependencies.jar:?]
+2024-08-26 18:35:18 INFO  TestListener:21 - Test failed: testRegUserPage
+2024-08-26 18:35:18 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:35:19 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:36:55 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:36:59 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:36:59 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:36:59 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:36:59 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:36:59 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:37:03 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:37:04 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:37:04 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:37:04 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:37:05 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:37:30 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:37:33 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:37:33 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:37:33 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:37:33 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:37:33 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:37:37 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:37:37 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:37:37 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:37:37 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:37:37 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:38:48 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:38:52 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:38:52 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:38:52 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:38:52 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:38:52 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:38:55 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:38:56 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:38:56 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:38:56 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:38:56 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
+2024-08-26 18:39:09 INFO  DriverFactory:16 - ChromeDriver Path: D:\Testing\SeleniumFramework\new\src\main\resources\msedgedriver.exe
+2024-08-26 18:39:13 INFO  DriverFactory:19 - ChromeDriver initialized successfully.
+2024-08-26 18:39:13 INFO  TestListener:31 - ------------------------------------Test Run Initiated------------------------------------
+2024-08-26 18:39:13 INFO  RegUserTest:34 - Driver setup completed.
+2024-08-26 18:39:13 INFO  TestListener:11 - Test StartedtestRegUserPage
+2024-08-26 18:39:13 INFO  RegUserTest:47 - Navigating to URL: https://parabank.parasoft.com/parabank/register.htm
+2024-08-26 18:39:17 INFO  RegUserTest:52 - Title matched successfully
+2024-08-26 18:39:17 INFO  RegUserTest:54 - Screenshot taken successfully
+2024-08-26 18:39:17 INFO  TestListener:16 - Test passed: testRegUserPage
+2024-08-26 18:39:17 INFO  RegUserTest:80 - Closing the browser
+2024-08-26 18:39:18 INFO  TestListener:36 - ------------------------------------Test Run Completed------------------------------------
